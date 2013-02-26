@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    </head>
+    
+    <body>
+        
+        <!--### User Settings Page ###-->
+        <div id="user-settings-page" data-role="page">
+            <div data-id="myheader" data-role="header" data-position="fixed" id="header">
+                <a id="settings" onclick="goBack()" href="#">Back</a>
+                <h1>User Settings</h1>
+            </div><!--header-->
+            <div id="user-settings-content" data-role="content">
+                <form id="user-setup" action="#" method="post">
+                    <div data-role="fieldcontain" class="ui-hide-label">
+                        <label for="user-setup-fname">First Name:</label>
+                        <input type="text" name="fname" id="user-setup-fname" value="" placeholder="First Name"/>
+                    </div>
+                    <div data-role="fieldcontain" class="ui-hide-label">
+                        <label for="user-setup-lname">Last Name:</label>
+                        <input type="text" name="lname" id="user-setup-lname" placeholder="Last Name"/>
+                    </div>
+                    <div data-role="fieldcontain" class="ui-hide-label">    
+                        <label for="user-setup-email" class="ui-hidden-accessible">Email:</label>
+                        <input type="email" name="email" id="user-setup-email" placeholder="Email"/>
+                    </div>
+                    <div data-role="fieldcontain" class="ui-hide-label">
+                        <label for="user-setup-phone" class="ui-hidden-accessible">Phone:</label>
+                        <input type="tel" name="phone" id="user-setup-phone" placeholder="Phone"/>
+                    </div>
+                    <button id="login-submit-button" type="submit" data-theme="b" name="submit">Submit</button>
+                </form>
+            </div>
+        </div><!--user-settings-page-->        
+    </body>
+    
+</html>

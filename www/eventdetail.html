@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+    
+<body>
+
+	<div id="event-detail" data-role="page">
+        <div id="container">  
+            <div data-id="myheader" data-role="header" data-position="fixed" id="header">
+                <div>
+                    <a id="settings" onclick="goBack()" href="#"><img src="images/back_btn.png" /></a>
+                    <!--<span id="title"></span>-->
+                </div>
+            </div><!--header-->
+            <div id="content" class="event_detail_box">
+              <div class="top-half">
+                <div class="event_detail_image_container">
+                    <div class="event_detail_img"><img src="./images/events/eventdetail-placeholder.jpg" alt="Event Image" /></div>
+                    <div class="event_info">
+                        <div class="showcase_date"></div>
+                        <div class="showcase_title"></div>
+                        <div class="showcase_venue"></div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="share"><a href="#"><img src="images/friends_btn.png" /></a></div>
+                <div class="facebook"><a id="facebook-link" href="#"><img id="facebook_img" src="images/facebook_btn.png" /></a></div>
+                <div class="follow"><a id="add-to-faves" href="#"><img id="fave_img" src="images/rushticket_btn.png" /></a></div>
+                <div class="favorite"><a id="like-link" href="#"><img id="like-img" src="images/like_btn.png" /></a></div>
+              </div><!--top-half-->
+              <div class="clear"></div>
+              <div class="ui-grid-b">
+                    <div id="learn-more" class="ui-block-a on">Learn More</div>
+                    <div id="fan-say" class="ui-block-b">Fan Say</div>
+                    <div id="trailers" class="ui-block-c">Trailers</div>
+              </div><!-- /grid-b -->
+              <div class="bottom-content">
+                  <div id="event-description">
+                      <div class="showcase_title"></div>
+                      <div class="showcase_venue"></div>
+                      <div id="long-description"></div>
+                  </div>
+                  <div id="user-content">
+                      <div class="reviews">
+                          <h3>Reviews</h3>
+                          <div id="stars"></div>
+                          <div class="small">A great night out!</div>
+                      </div>
+                      <div class="wear">
+                          <h3>What to Wear</h3>
+                          <div id="bowties"></div>
+                          <div class="bowties-desc small">A comfortable but fashionable scene</div>
+                      </div>
+                      <div class="clear"></div>
+                      <div class="user-reviews">
+                          <h3>User Reviews</h3>
+                          <hr />
+                          <img src="images/userreview.png" alt="user review" />
+                        </div>
+                  </div><!--user-content-->
+                  <div id="videos">
+                      <h3 class="showcase_title"></h3>
+                      <!--<iframe width="280" height="180" src="http://www.youtube.com/embed/FNFjEAHn9xw?rel=0" frameborder="0" allowfullscreen></iframe>-->
+                  </div>
+              </div>
+            </div><!--content-->
+        </div><!--container-->
+	</div><!--event-detail-->
+
+</body>
+
+</html>

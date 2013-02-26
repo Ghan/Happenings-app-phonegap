@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Happenings NYC</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta charset="utf-8">
+<link rel="stylesheet" href="css/jquery.mobile-1.0rc1.min.css" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+    
+<body onload="app.bodyLoad()">
+
+<!--### Log In Page ###-->
+<div id="log-in-page" data-role="page" >
+  <div data-role="header" data-position="fixed" id="header">Happenings</div> 
+  <div id="loginArea"> <!-- If we don't have a user we will show this -->
+    <div id="login" class="btn">Login</div>
+  </div>
+    
+  <div id="status"> <!-- if we do have a user we will show this -->
+    <div id="logged-in">
+        <h3>You're logged in!</h3>
+        <a href="landing.html">Visit Landing Page</a>
+    </div>
+    
+    <!--<textarea id="statusTXT"></textarea>
+    <div id="statusBTN" class="btn">share</div>-->
+
+  </div><!--status-->
+    
+</div><!--log-in-page-->
+
+<script type="text/javascript" charset="utf-8" src="phonegap-1.4.1.js"></script>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/jquery-jsonp-2.2.1.min.js"></script>
+<script src="js/jquery.mobile-1.0rc1.min.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="js/plugins/ChildBrowser.js"></script>
+    
+<script type="text/javascript" charset="utf-8" src="js/helpers.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/nav.js"></script>
+    
+<script type="text/javascript" charset="utf-8" src="js/init.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/usersettings.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/landing.js"></script>
+<!--<script type="text/javascript" charset="utf-8" src="js/event-list.js"></script>-->
+<script type="text/javascript" charset="utf-8" src="js/event-detail.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/venue-detail.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/intermission.js"></script>
+    
+<script>
+//	var serviceURL = "http://localhost:3000/";
+	var serviceURL = "http://happenings-app.herokuapp.com/";
+    
+
+    
+</script>
+
+</body>
+
+</html>
